@@ -2,7 +2,7 @@
 	"name": "ADLSUfoDataSet",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "AzureDataLakeStorage6",
+			"referenceName": "AzureDataLakeStorage7",
 			"type": "LinkedServiceReference"
 		},
 		"annotations": [],
