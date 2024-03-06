@@ -2,7 +2,7 @@
 	"name": "ufoData",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "HttpUfoData",
+			"referenceName": "HTTPufoData1",
 			"type": "LinkedServiceReference"
 		},
 		"annotations": [],

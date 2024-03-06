@@ -54,7 +54,7 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "ADLSUfoDataSet",
+						"referenceName": "ADLSufoData",
 						"type": "DatasetReference"
 					}
 				]
