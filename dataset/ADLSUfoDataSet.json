@@ -10,7 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"fileName": "ufo.csv",
+				"fileName": "ufo-sightings-transformed.csv",
 				"folderPath": "raw-data",
 				"fileSystem": "ufo-sighting-data"
 			},
