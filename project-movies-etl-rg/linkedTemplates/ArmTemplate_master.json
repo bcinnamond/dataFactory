@@ -27,6 +27,26 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'accountKey' of 'AzureDataLakeStorage5'"
 		},
+		"AzureDataLakeStorage6_accountKey": {
+			"type": "secureString",
+			"metadata": "Secure string for 'accountKey' of 'AzureDataLakeStorage6'"
+		},
+		"AzureDataLakeStorage7_accountKey": {
+			"type": "secureString",
+			"metadata": "Secure string for 'accountKey' of 'AzureDataLakeStorage7'"
+		},
+		"AzureDataLakeStorage8_accountKey": {
+			"type": "secureString",
+			"metadata": "Secure string for 'accountKey' of 'AzureDataLakeStorage8'"
+		},
+		"OutputSQL_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'OutputSQL'"
+		},
+		"sqlinputblob_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'sqlinputblob'"
+		},
 		"AzureDataLakeStorage1_properties_typeProperties_url": {
 			"type": "string",
 			"defaultValue": "https://rcmoviesdatasa.dfs.core.windows.net/"
@@ -46,6 +66,26 @@
 		"AzureDataLakeStorage5_properties_typeProperties_url": {
 			"type": "string",
 			"defaultValue": "https://rcmoviesdatasa.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage6_properties_typeProperties_url": {
+			"type": "string",
+			"defaultValue": "https://rcmoviesdatasa.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage7_properties_typeProperties_url": {
+			"type": "string",
+			"defaultValue": "https://rcmoviesdatasa.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage8_properties_typeProperties_url": {
+			"type": "string",
+			"defaultValue": "https://rcmoviesdatasa.dfs.core.windows.net/"
+		},
+		"HTTPufoData1_properties_typeProperties_url": {
+			"type": "string",
+			"defaultValue": "https://raw.githubusercontent.com/vetate/ufo-data/main/ufo-sightings-transformed.csv "
+		},
+		"HttpUfoData_properties_typeProperties_url": {
+			"type": "string",
+			"defaultValue": "https://raw.githubusercontent.com/vetate/ufo-data/main/ufo-sightings-transformed.csv "
 		},
 		"actionHTTP_properties_typeProperties_url": {
 			"type": "string",
@@ -109,6 +149,21 @@
 					"AzureDataLakeStorage5_accountKey": {
 						"value": "[parameters('AzureDataLakeStorage5_accountKey')]"
 					},
+					"AzureDataLakeStorage6_accountKey": {
+						"value": "[parameters('AzureDataLakeStorage6_accountKey')]"
+					},
+					"AzureDataLakeStorage7_accountKey": {
+						"value": "[parameters('AzureDataLakeStorage7_accountKey')]"
+					},
+					"AzureDataLakeStorage8_accountKey": {
+						"value": "[parameters('AzureDataLakeStorage8_accountKey')]"
+					},
+					"OutputSQL_connectionString": {
+						"value": "[parameters('OutputSQL_connectionString')]"
+					},
+					"sqlinputblob_connectionString": {
+						"value": "[parameters('sqlinputblob_connectionString')]"
+					},
 					"AzureDataLakeStorage1_properties_typeProperties_url": {
 						"value": "[parameters('AzureDataLakeStorage1_properties_typeProperties_url')]"
 					},
@@ -123,6 +178,21 @@
 					},
 					"AzureDataLakeStorage5_properties_typeProperties_url": {
 						"value": "[parameters('AzureDataLakeStorage5_properties_typeProperties_url')]"
+					},
+					"AzureDataLakeStorage6_properties_typeProperties_url": {
+						"value": "[parameters('AzureDataLakeStorage6_properties_typeProperties_url')]"
+					},
+					"AzureDataLakeStorage7_properties_typeProperties_url": {
+						"value": "[parameters('AzureDataLakeStorage7_properties_typeProperties_url')]"
+					},
+					"AzureDataLakeStorage8_properties_typeProperties_url": {
+						"value": "[parameters('AzureDataLakeStorage8_properties_typeProperties_url')]"
+					},
+					"HTTPufoData1_properties_typeProperties_url": {
+						"value": "[parameters('HTTPufoData1_properties_typeProperties_url')]"
+					},
+					"HttpUfoData_properties_typeProperties_url": {
+						"value": "[parameters('HttpUfoData_properties_typeProperties_url')]"
 					},
 					"actionHTTP_properties_typeProperties_url": {
 						"value": "[parameters('actionHTTP_properties_typeProperties_url')]"

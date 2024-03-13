@@ -20,6 +20,21 @@
 		"AzureDataLakeStorage5_accountKey": {
 			"value": ""
 		},
+		"AzureDataLakeStorage6_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage7_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage8_accountKey": {
+			"value": ""
+		},
+		"OutputSQL_connectionString": {
+			"value": ""
+		},
+		"sqlinputblob_connectionString": {
+			"value": ""
+		},
 		"AzureDataLakeStorage1_properties_typeProperties_url": {
 			"value": "https://rcmoviesdatasa.dfs.core.windows.net/"
 		},
@@ -34,6 +49,21 @@
 		},
 		"AzureDataLakeStorage5_properties_typeProperties_url": {
 			"value": "https://rcmoviesdatasa.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage6_properties_typeProperties_url": {
+			"value": "https://rcmoviesdatasa.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage7_properties_typeProperties_url": {
+			"value": "https://rcmoviesdatasa.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage8_properties_typeProperties_url": {
+			"value": "https://rcmoviesdatasa.dfs.core.windows.net/"
+		},
+		"HTTPufoData1_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com/vetate/ufo-data/main/ufo-sightings-transformed.csv "
+		},
+		"HttpUfoData_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com/vetate/ufo-data/main/ufo-sightings-transformed.csv "
 		},
 		"actionHTTP_properties_typeProperties_url": {
 			"value": "https://raw.githubusercontent.com/vetate/project-ETL-Movies-DATAcsv/main/action.csv "
